@@ -1,0 +1,36 @@
+# Task 1: Perform Basic Mathematical Operations
+
+# Take input from user
+a = float(input("Enter the first number: "))
+b = float(input("Enter the second number: "))
+
+# Perform operations
+addition = a + b
+subtraction = a - b
+multiplication = a * b
+# Division with error handling
+if b != 0:
+    division = a / b
+else:
+    division = "Undefined (cannot divide by zero)"
+
+# Display results
+print("\nResults of Basic Mathematical Operations:")
+print("Addition:", addition)
+print("Subtraction:", subtraction)
+print("Multiplication:", multiplication)
+print("Division:", division)
+
+
+
+# Task 2: Create a Personalized Greeting
+
+# Take user input
+first_name = input("Enter your first name: ")
+last_name = input("Enter your last name: ")
+
+# Concatenate full name
+full_name = first_name + " " + last_name
+
+# Display greeting
+print("\nHello", full_name + "! Welcome to Python programming 🚀")
